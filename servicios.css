@@ -1,0 +1,47 @@
+body{
+    background-image: url(img/Background\ 2\ \(oscuro\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.servicios{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.servicios section{
+    background-color: #01FFE6;
+    height: 700px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align:justify;
+    line-height: 25px
+}
+
+.servicios section p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.servicios section b{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.servicios section img{
+    border-radius: 25px;
+}
+
+.servicios h2{
+    text-transform: uppercase;
+    font-size: 18px;
+}
