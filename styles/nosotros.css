@@ -1,0 +1,88 @@
+body{
+    background-image: url(../img/Background\ 1\ \(oscuro\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.encabezado p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+.nosotros p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+}
+
+.nosotros h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.encabezado h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nosotros h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.encabezado h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.final h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.encabezado{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nosotros article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nosotros section{
+    width: 400px;
+}
