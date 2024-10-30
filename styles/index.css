@@ -1,3 +1,9 @@
+body{
+    background-color: #01FFE6;
+    justify-content: center;
+    display:inline-block;
+}  
+
 .container{
     margin-top: 10px;
     height: 690px;
@@ -26,10 +32,6 @@
     display: flex;
     width: 400%;
     animation: slide 25s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
-}
-
-body{
-    background-color: #01FFE6;;
 }
 
 @keyframes slide{
